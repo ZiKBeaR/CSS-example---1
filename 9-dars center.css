@@ -1,0 +1,215 @@
+.center {
+  border: 0px solid green;
+  width: 45%;
+}
+
+/* ---------Hello josh----------- */
+
+.Hello-josh {
+  border: 0px solid blue;
+  height: 160px;
+  background: #F5F5F7;
+  border-radius: 14px;
+  box-sizing: inherit;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 16px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Hello-josh-h1-p {
+  flex: 1;
+  margin-left: 32px;
+}
+
+.Hello-josh-img {
+  flex: 1;
+  padding-bottom: 23px;
+}
+
+
+/* ---------------Spanish---------- */
+
+.Spanish-and-left-right-btn{
+  border: 0px solid blue;
+  display: flex;
+  align-items: center;
+  box-sizing: inherit;
+  margin: 16px 0;
+}
+
+.Spanish-info {
+  border: 0px solid purple;
+  background: #F5F5F7;
+  border-radius: 14px;  
+  display: flex;
+  align-items: center;
+  box-sizing: inherit;
+  flex: 5;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1150px) {
+.Spanish-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: inherit;
+}
+}
+
+.Spanish-flag {
+  border: 0px solid orange;
+  background: #FFFFFF;
+  width: 64px;
+  height: 64px; 
+  border-radius: 12px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  box-sizing: inherit;
+  margin: 8px;
+  flex: 1;
+}
+
+.Spanish-flag img {
+  box-sizing: inherit;
+  cursor: pointer;
+}
+
+.Spanish-flag img:hover {
+  opacity: 0.5;
+}
+
+
+.Spanish-info-h3-p {
+  box-sizing: inherit;
+  text-align: left;
+  margin: 0 16px;
+  flex: 2;
+}
+
+.Spanish-info-h3-p h3, p {
+  font-size: inherit;
+}
+
+.Spanish-ellipse {
+  border: 0px solid orange;  
+  margin: 0 20px;
+  flex: 2;
+  box-sizing: inherit;
+}
+
+.Spanish-ellipse svg {
+  box-sizing: inherit;
+}
+
+.all-black-btn {
+  border: 0px solid orange;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+  flex: 2;
+  box-sizing: inherit;
+  cursor: pointer;
+}
+
+.all-black-btn:hover {
+  background-color: #FFFFFF;
+  color: black;
+  border: 2px solid black;
+}
+
+.left-right-btn{
+  border: 0px solid purple;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  box-sizing: inherit;
+}
+
+@media only screen and (max-width: 1350px) {
+  .left-right-btn{
+    flex-direction: column;
+    box-sizing: inherit;    
+  }
+  
+}
+
+.left-right-btn img{
+  margin: 16px;
+  box-sizing: inherit;
+  cursor: pointer;
+}
+
+.left-right-btn img:hover{
+  opacity: 0.5;
+}
+
+/* ----------------Courses--------------- */
+
+.Courses {
+  border: 0px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+
+.Courses h3 {
+  cursor: pointer;
+}
+
+.Courses-tip{
+  display: flex;
+  align-items: left;
+  justify-content: space-between;  
+}
+
+.courses-tip-hover {
+  opacity: 0.5;
+}
+
+.courses-tip-hover:hover{
+  opacity: 1;
+}
+
+
+/* ----------------View course---------------- */
+
+.View-courses {
+  border: 0px solid blue;
+  align-items: center;
+  box-sizing: inherit;
+  margin: 16px 0;
+}
+
+.ocloc-icon-time{
+border: 0px solid orange;
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.ocloc-icon-time p{
+font-size: inherit;
+}
+  
+
+.fire-rating{
+  border: 0px solid orange;
+  flex: 1;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

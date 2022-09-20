@@ -1,0 +1,137 @@
+.right {
+  border: 0px solid green;
+  width: 35%;
+}
+
+.head-search-bar-profil-img {
+  border: 0px solid blue;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  border: 0px solid purple;
+  display: flex;
+  align-items: left;
+  flex: 2;
+  background: #F5F5F7;
+  border-radius: 8px;
+}
+.search-bar img{
+  margin: 10px;
+}
+
+.notificl-profil-img {
+  border: 0px solid purple;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex: 1;
+}
+
+.notificl-profil-img img{
+  margin-left: 13px;
+}
+
+/* --------------------big text---------- */
+
+.big-text{
+  border: 0px solid blue;
+  display: flex;
+  align-items: center;
+  margin: 24px;
+}
+
+.big-text-left{
+  border: 0px solid purple;
+  flex: 1;
+  background: #F5F5F7;
+  border-radius: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: inherit;
+}
+
+.big-text-left h1 {
+  font-size: 64px;
+  line-height: 102px;
+  margin: 12px;
+}
+
+.big-text-right{
+  border: 0px solid purple;
+  flex: 1;
+  margin-left: 24px;
+  background: #F5F5F7;
+  border-radius: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: inherit;
+}
+
+.big-text-right h1 {
+  font-size: 64px;
+  line-height: 102px;
+  margin: 12px;
+}
+
+/* -----------------Your statistic------------- */
+
+.profil-tip {
+  display: flex;
+  align-items: left;
+}
+
+.profil-tip .courses-tip-hover {
+  margin-left: 24px;
+}
+
+.profil-tip-h3 {
+  border: 0px solid black;
+  display: flex;
+  flex: 1;
+  }
+
+.weekly-text{
+  border: 0px solid black;
+  display: flex;
+  justify-content: right;
+  flex: 1;
+}
+
+/* ------------diogramma img---------- */
+
+
+.diogramma-img {
+  border: 0px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* --------------end lern more------------- */
+
+.lern-more{
+  border: 0px solid blue;
+  display: flex;
+}
+
+.lern-more-h2{
+  flex: 1;
+  margin-left: 23px;
+
+}
+
+.lern-more .all-black-btn{
+  margin: 24px 0;
+}
+
+.book-img {
+display: flex;
+align-items: center;
+justify-content: center;
+flex: 1;
+}
