@@ -7,7 +7,7 @@
 
 
  .contenier {
-  border: 3px solid red;
+  border: 0px solid red;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
